@@ -59,6 +59,16 @@ void AbsoluteLayout::willDisappear(bool resetState)
         view->willDisappear(resetState);
 }
 
+size_t AbsoluteLayout::getViewCount()
+{
+    return this->children.size();
+}
+
+View* AbsoluteLayout::getChild(size_t i)
+{
+    return this->children[i];
+}
+
 AbsoluteLayout::~AbsoluteLayout()
 {
     for (View* view : this->children)

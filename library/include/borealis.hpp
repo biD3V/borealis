@@ -42,6 +42,7 @@
 #include <borealis/label.hpp>
 #include <borealis/layer_view.hpp>
 #include <borealis/list.hpp>
+#include <borealis/grid.hpp>
 #include <borealis/logger.hpp>
 #include <borealis/material_icon.hpp>
 #include <borealis/notification_manager.hpp>

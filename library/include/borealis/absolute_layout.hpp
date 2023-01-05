@@ -48,6 +48,8 @@ class AbsoluteLayout : public View
     void onWindowSizeChanged() override;
     void willAppear(bool resetState = false) override;
     void willDisappear(bool resetState = false) override;
+    size_t getViewCount();
+    View* getChild(size_t i);
 };
 
 // Allows users to define an entirely custom "navigation map"
